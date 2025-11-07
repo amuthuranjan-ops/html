@@ -3,52 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>box model </title>
+    <title>Bootstrap </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
-        div.fixed {
-            position: fixed;
-            top: 50px;
-            left: 50px;
-            width: 70px;
-            height: 20px;
-            background-color: lightblue;
-            border: 2px solid black;
+        .col {
+            border:2px solid red;
         }
-        div.relative {
-            position: relative;
-            top: 150px;
-            left: 50px;
-            width: 90px;
-            height: 20px;
-            background-color: lightgreen;
-            border: 2px solid black;
-        }
-        div.absolute {
-            position: absolute;
-            top: 30px;
-            left: 90px;
-            width: 100px;
-            height: 20px;
-            background-color: lightcoral;
-            border: 2px solid black;
-        }
+
     </style>
     
        
 </head>
 <body>
-    <div class="fixed">
-        coding
-    </div>
-    <div class="relative">
-        learning
-        <div class="absolute">
-            codingal
-        </div>
-
-    </div>
-   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+<h2>equal width column</h2>
+<div class="container">
+    <div class="row">
+        <div class="col bg-primary">coding</div>
+    
+    <div class="col bg-danger">coding</div>
+    <div class="col bg-warning">coding</div>
+</div>
+</div>
 </body>
     
 </html>
