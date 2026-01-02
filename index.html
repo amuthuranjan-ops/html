@@ -11,30 +11,16 @@
        
 </head>
 <body>
-    <h2>js array sort</h2>
-    <p>click the button to sort in ascendig order</p>
-    <button onclick="ascending()">ascending order</button>
-    <button onclick="decending()">decending order</button>
-    <p id="result"></p>
-    <script>
-        var points =[1,3,2,5]
-        document.getelementbyid("result").innerhtml=points;
-        function ascending() {
-            points.sort(function(a,b){return a-b});
-            document.getelementbyid('result').innerhtml=points;
+<p id="number_result"></p>
+<p id="string_result"></p>
+<script>
+    var x=70;
+    var y = 90;
+    document.getelementbyid("number_result").innerHTML = x + y;
+    document.getelementbyid("string_result").innerHTML = string(x)+string(y);
 
-
-        }
-        function decending() {
-                points.sort(function (a, b) { return b - a });
-                document.getelementbyid('result').innerhtml = points;
-
-
-            }
-    </script>
-</body> 
-
-
+</script>
+  
 
 </body>
     
