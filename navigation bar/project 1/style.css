@@ -1,0 +1,20 @@
+body {
+    margin: 10;
+    padding: 10;
+    font-family: arial, sans-serif;
+}
+
+/* About Section Styling */
+#about {
+    background-color: rgb(100, 146, 202);
+    min-height: 200vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Right side text alignment */
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

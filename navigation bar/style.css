@@ -11,8 +11,8 @@ body{
 
 .navigation-link {
     text-decoration:rgb(249, 251, 152);
-    font-size:14px;
-    padding:8px 11px;
+    font-size:17px;
+    padding:17px 13px;
     transition:color 0.2s ease;
 }
 
@@ -28,17 +28,17 @@ body{
 }
 h4.text-white {
     font-weight:600;
-    letter-spacing:1px;
+    letter-spacing:3px;
 
 }
 
 .fa-code{
-    margin-right:8px;
+    margin-right:10px;
 }
 @media (max-width:768px) {
     .navigation-link {
         font-size:12px;
-        padding:6px 8px;
+        padding:8px 10px;
     }
     .col-6 {
         padding:10px;
@@ -51,6 +51,6 @@ h4.text-white {
 }
 
 .container.navigation {
-    padding-top:12px;
-    padding-bottom:12px
+    padding-top:14px;
+    padding-bottom:14px
 }
