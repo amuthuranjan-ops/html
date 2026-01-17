@@ -1,0 +1,35 @@
+body {
+    background-color: #1846d1;
+}
+
+/* Social Media Section */
+#social-media {
+    background-color: #b519ab;
+}
+
+/* Social Media Cards */
+
+.media_link {
+    background-color: #7dce66;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Icon size */
+.media_link i {
+    font-size: 24px;
+    color: #139d76;
+}
+
+/* Hover effect */
+.media_link:hover {
+    background-color: #407293;
+}
+
+/* Footer */
+footer {
+    background-color: #cde1152f;
+}
